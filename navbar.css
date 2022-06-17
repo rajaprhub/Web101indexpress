@@ -1,0 +1,98 @@
+
+
+    .language{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 25px;
+      gap:10px;
+      background-color: gainsboro;
+     }
+    
+    .date{
+      margin-top: 10px;
+      text-align: center;
+     }
+    .date > img {
+      margin-top: 10px;
+      width: 25%;
+      text-align: center;
+     }
+
+    #main{
+       width: 99%;
+       height : 50px;
+       margin: auto;
+       display: flex;
+      justify-content: space-evenly;
+      background-color: black;
+   }
+
+    #main > div:nth-child(1){
+       height: 90%;
+        width:2%;
+       color:white;
+    }
+    #main > div:nth-child(2){
+       width: 15%;
+    }
+    #main > div:nth-child(2) > img{
+        width: 90%;
+        height: 80%;
+    }
+
+    #main > div:nth-child(3){
+        width:80%;
+        height: 100%;
+        align-items: center;
+        gap:5px;
+   }
+
+   #main > div:nth-child(3) > p {
+    color: white;
+   }
+
+    #main > div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+       font-weight: 10;
+   }
+
+  p+div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 5px;
+       margin: 10px;
+       padding: 5px ;
+     
+    }
+  select{
+        border: 0;
+    }
+   #navbar > div:nth-child(3) p + button {
+     font-size : 12px;
+     border-radius: 5px;
+     color: blue;
+     background-color: white;
+     padding: 2px;
+   }
+   #navbar > div:nth-child(3) button + button {
+     font-size : 12px;
+     border-radius: 5px;
+     color: black;
+     background-color: orange;
+     padding: 2px;
+   }
+   h5 {
+     color: white;
+    }
+
+
+ 
+   /* *********************************** */
+
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp page Dummy</title>
+
+<style>
+
+      
+      
+       form {
+           width: 30%;
+           margin: 3% auto;
+           padding: 3%;
+           text-align: center;
+           border-radius: 15px;
+           background: white ;
+           border:1px solid gray;
+         }
+
+       #form input{
+        display: block;
+        margin: 15px auto;
+        font-size: 15px;
+        padding: 2%;
+        text-align: center;
+        width:90%;
+        border-radius: 15px;
+        background-color: white;
+        border:1px solid gray;
+        color:white;
+      }
+
+     span{
+         text-align: center;
+         margin-left:22%;
+         font-size: 15px;
+         color:gray;
+         font-family: 'Montserrat', sans-serif;
+       }
+      #form #Continue{
+        width:96%;
+        height:50%;
+        background-color: whitesmoke;
+        color:blue;
+        border: 1px solid blue ;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+     }
+    </style>
+</head>
+<body>
+      <div class="formpage">
+
+         <form id="form">
+
+         <h2 class="heading">Welcome Back</h2>
+         <input type="text" placeholder="Continue with Google" >
+         <input type="text" placeholder="Continue with Facebook" >
+         <input type="text" placeholder="Continue with Apple" id="email">
+         <P> or </P>
+         <p> Enter the email address or mobile number </p> associated with your account to sign in</P>
+         <input id="textNumberInput" name="multiAuthInput" type="text" class="ev form-control widget-input ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-valid-minlength ng-valid-maxlength ng-touched" placeholder="Insert Phone Number/Email" ng-model="multiAuthInput" minlength="1" maxlength="255" ng-required="true" ng-trim="true" ng-model-options="{debounce: debounceTime}" required="required">
+         <input type="submit" value="Continue" id="Continue">
+         <span class="spanclass">
+             <p>New to Indian Express ? </p>
+             <a href="login.html">Create an account to get Started</a>
+         </span>
+
+       </form>
+
+    </div>
+
+</body>
+</html>
+
+<!-- <script>
+    var userArr=JSON.parse(localStorage.getItem("userData")) || [] ;
+    
+    
+    document.querySelector("#form").addEventListener("submit",function(){
+        event.preventDefault();
+
+        var data={
+            username:form.Firstname.value,
+            userlastname:form.Lastname.value,
+            email:form.email.value,
+            password:form.password.value,
+        }    
+            // console.log(data)
+             userArr.push(data)
+        
+      
+        localStorage.setItem("userData",JSON.stringify(userArr));
+        window.location.href="login.html"
+    })
+</script> -->
+
+
